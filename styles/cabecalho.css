@@ -1,0 +1,37 @@
+:root {
+  --cor-laranja: rgb(255, 122, 0);
+
+}
+.expand_more {
+  color: #a9a7a7;
+ 
+}
+.expand_more:active {
+  transform: rotate(180deg);
+}
+.search {
+  color: var(--cor-laranja);
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.botao__laranja {
+  text-decoration: none;
+  color: white;
+  background-color: var(--cor-laranja);
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  height: 48px;
+  padding: 14px 16px 15px;
+}
+.botao__acessar {
+  text-decoration: none;
+  color: var(--cor-laranja);
+  background-color: transparent;
+  border: 1px solid rgb(255, 180, 110);
+  border-radius: 8px;
+  padding: 14px 16px 15px;
+  height: 48px;
+}
