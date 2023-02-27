@@ -1,0 +1,23 @@
+.container__terciario {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 7rem 3.5rem 0rem 4.7rem;
+  
+ 
+}
+.terciario__texto {
+  
+}
+.container__terciario__paragrafo__um {
+  color: #616161;
+  font-size: 27px;
+  font-weight: 600; 
+
+}
+.container__terciario__titulo {
+  color: black;
+  font-size: 45px;
+  font-weight: 700; 
+  
+  
+}

@@ -1,0 +1,11 @@
+.container__quartenario {
+  display: grid;
+  grid-template-columns: 58% 42%;
+  margin: 3.8rem 3.5rem 0rem 4.7rem;
+}
+.span {
+  color: var(--cor-laranja);
+  margin-right: 0.5rem;
+  position: relative;
+  top: 5px;
+}

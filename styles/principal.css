@@ -26,9 +26,7 @@
 .container__principal__titulo {
   color: black;
   font-size: 45px;
-  font-weight: 700;
-  
-  
+  font-weight: 700; 
 }
 .subtitulo {
   color: var(--cor-laranja);
@@ -45,7 +43,7 @@
 .frase {
   margin-bottom: 3rem;
 }
-.botao__laranja {
+.botao__laranja__principal {
   text-decoration: none;
   color: white;
   background-color: var(--cor-laranja);

@@ -1,0 +1,27 @@
+.container__secundario {
+  margin: 2rem 3.5rem 2rem 4.7rem;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.container__secundario__titulo {
+  color: black;
+  font-size: 45px;
+  font-weight: 700;  
+}
+.container__secundario__paragrafo {
+  font-size: 21px;
+  font-weight: 400;
+  color: #616161;
+   margin-bottom: 3rem;
+}
+.botao__laranja__secundario {
+  text-decoration: none;
+  color: white;
+  background-color:rgb(255, 122, 0);
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  height: 48px;
+  padding: 14px 120px 15px;
+  
+}
