@@ -1,0 +1,31 @@
+:root {
+  --cor-laranja: rgb(255, 122, 0);
+
+}
+
+.container__principal {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 3.5rem 0 4.7rem;
+  
+}
+.simbolo {
+  color: var(--cor-laranja);
+  transform: translate(0%,30%);
+}
+.container__principal__titulo {
+  color: black;
+  font-size: 45px;
+  font-weight: 700;
+}
+.subtitulo {
+  color: var(--cor-laranja);
+}
+.container__principal__texto {
+  font-size: 21px;
+  font-weight: 400;
+  color: #292929;
+}
+.texto {
+  flex-wrap: wrap;
+}
