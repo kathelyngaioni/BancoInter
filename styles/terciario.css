@@ -1,23 +1,35 @@
 .container__terciario {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  margin: 7rem 3.5rem 0rem 4.7rem;
+  display: flex;
+  justify-content: end;
+  margin: 7rem 3.5rem 0rem 4.7rem; 
+
   
- 
+}
+.container__terciario__imagem {
+   margin-left: 7rem;
 }
 .terciario__texto {
-  
+  margin-left: 9rem;
+  margin-right: 10rem;
 }
 .container__terciario__paragrafo__um {
   color: #616161;
   font-size: 27px;
   font-weight: 600; 
-
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+}
+.container__terciario__paragrafo__dois {
+  color: #616161;
+  font-size: 21px;
 }
 .container__terciario__titulo {
   color: black;
-  font-size: 45px;
+  font-size: 49px;
   font-weight: 700; 
-  
-  
+  margin-top: 0;
+  line-height: 1;
+}
+.palavra__enfase {
+  color: var(--cor-laranja);
 }
