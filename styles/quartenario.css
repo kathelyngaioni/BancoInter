@@ -3,13 +3,29 @@
   grid-template-columns: 58% 42%;
   margin: 3.8rem 3.5rem 0rem 4.7rem;
 }
+
 .span {
   color: var(--cor-laranja);
   margin-right: 0.5rem;
   position: relative;
   top: 5px;
 }
+.container__quartenario__texto {
+  line-height: 0.1;
+}
 .container__quartenario__paragrafo__um {
   color: #292929;
   font-size: 22px;
+  line-height: 22px;
+}
+.texto__quartenario {
+  font-weight: 400;
+  font-size: 17px;
+}
+.quartenario__penultimo {
+  margin-bottom: 5rem;
+}
+.botao__quartenario {
+  padding: 14px 225px 15px;
+  white-space: nowrap;
 }
